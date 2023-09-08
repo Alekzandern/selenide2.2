@@ -13,20 +13,20 @@ import java.time.format.DateTimeFormatter;
 
 import static com.codeborne.selenide.Condition.visible;
 import static com.codeborne.selenide.Selenide.*;
-class CallbackTest {
-    private WebDriver driver;
 
-    @BeforeAll
-    public static void setUpAll() {
-
-        WebDriverManager.chromedriver().setup();
-    }
+    
 public class AppCardDeliveryTest {
 
     public String generateDate(int addDays, String pattern) {
         return LocalDate.now().plusDays(addDays).format(DateTimeFormatter.ofPattern(pattern));
     }
 }
+ private WebDriver driver;
+@BeforeAll
+    public static void setUpAll() {
+
+        WebDriverManager.chromedriver().setup();
+    }
 
     @Test
     public void shouldSendFormSuccessfulTest() {
