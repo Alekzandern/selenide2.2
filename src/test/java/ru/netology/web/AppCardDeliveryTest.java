@@ -26,7 +26,7 @@ public class AppCardDeliveryTest {
     public String generateDate(int addDays, String pattern) {
         return LocalDate.now().plusDays(addDays).format(DateTimeFormatter.ofPattern(pattern));
     }
-
+}
 
     @Test
     public void shouldSendFormSuccessfulTest() {
