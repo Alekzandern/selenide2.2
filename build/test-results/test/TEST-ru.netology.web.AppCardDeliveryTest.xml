@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="ru.netology.web.AppCardDeliveryTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2023-09-06T23:47:58" hostname="WIN-N3GK5FLEDQ4" time="24.57">
+<testsuite name="ru.netology.web.AppCardDeliveryTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2023-09-08T22:29:42" hostname="WIN-N3GK5FLEDQ4" time="24.513">
   <properties/>
-  <testcase name="shouldReturnErrorAdd1DayNegativeTest()" classname="ru.netology.web.AppCardDeliveryTest" time="3.025"/>
-  <testcase name="shouldReturnErrorIncorrectPhoneNegativeTest()" classname="ru.netology.web.AppCardDeliveryTest" time="0.473"/>
-  <testcase name="shouldSendFormSuccessfulTest()" classname="ru.netology.web.AppCardDeliveryTest" time="10.58"/>
-  <testcase name="shouldSendFormAdd7DaysTest()" classname="ru.netology.web.AppCardDeliveryTest" time="10.491"/>
+  <testcase name="shouldReturnErrorAdd1DayNegativeTest()" classname="ru.netology.web.AppCardDeliveryTest" time="2.211"/>
+  <testcase name="shouldReturnErrorIncorrectPhoneNegativeTest()" classname="ru.netology.web.AppCardDeliveryTest" time="0.446"/>
+  <testcase name="shouldSendFormSuccessfulTest()" classname="ru.netology.web.AppCardDeliveryTest" time="10.881"/>
+  <testcase name="shouldSendFormAdd7DaysTest()" classname="ru.netology.web.AppCardDeliveryTest" time="10.974"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[SLF4J: No SLF4J providers were found.
 SLF4J: Defaulting to no-operation (NOP) logger implementation
 SLF4J: See https://www.slf4j.org/codes.html#noProviders for further details.
-сент. 06, 2023 11:48:00 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+сент. 08, 2023 10:29:44 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 116, so returning the closest version found: 115
 ]]></system-err>
 </testsuite>

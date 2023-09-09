@@ -6,6 +6,7 @@ import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.openqa.selenium.Keys;
+import org.openqa.selenium.WebDriver;
 
 import java.time.Duration;
 import java.time.LocalDate;
@@ -14,14 +15,12 @@ import java.time.format.DateTimeFormatter;
 import static com.codeborne.selenide.Condition.visible;
 import static com.codeborne.selenide.Selenide.*;
 
-    
 public class AppCardDeliveryTest {
 
     public String generateDate(int addDays, String pattern) {
         return LocalDate.now().plusDays(addDays).format(DateTimeFormatter.ofPattern(pattern));
     }
-  
-    @Test
+        @Test
     public void shouldSendFormSuccessfulTest() {
         open("http://localhost:9999");
         $("[data-test-id='city'] input").setValue("Майкоп");
